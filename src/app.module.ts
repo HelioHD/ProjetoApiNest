@@ -12,9 +12,9 @@ import { ScheduleModule } from '@nestjs/schedule';
       type: 'postgres',
       host: 'localhost',
       port: 5432,
-      database: 'puntudb',
-      username: 'puntuDbDev',
-      password: 'Puntu@2022',
+      database: 'database',
+      username: 'username',
+      password: 'senha',
       synchronize: true, // Não pode usar EM PRODUÇÃO APENAS EM DESENVOLVIMENTO 
       entities: [__dirname + '/**/*.entity{.js,.ts}'],
     }),
